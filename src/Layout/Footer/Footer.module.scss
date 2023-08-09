@@ -1,0 +1,11 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: white;
+  @media only screen and (max-width:1000px) {
+   display: none;   
+  }
+}
+.attribution a {
+  color: var(--color-accent);
+}

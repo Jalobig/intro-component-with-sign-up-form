@@ -1,0 +1,23 @@
+:root{
+// // Colors
+
+/// Primary
+
+--color-primary: hsl(0, 100%, 74%);
+--color-secondary: hsl(154, 59%, 51%);
+
+/// Accent
+
+--color-accent: hsl(248, 32%, 49%);
+
+/// Neutral
+
+--color-grey-dark: hsl(249, 10%, 26%);
+--color-grey: hsl(246, 25%, 77%);
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--color-primary);
+}

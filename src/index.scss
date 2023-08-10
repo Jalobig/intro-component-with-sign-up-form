@@ -14,6 +14,12 @@
 
 --color-grey-dark: hsl(249, 10%, 26%);
 --color-grey: hsl(246, 25%, 77%);
+--color-grey-tranlucent: hsla(249, 10%, 26%, 0.3);
+
+
+// // Shadows
+--default-shadow: 0 .5rem var(--color-grey-tranlucent);
+--button-shadow: 0 .1rem var(--color-grey-tranlucent);
 }
 
 body {

@@ -1,6 +1,7 @@
 .intro {
   width: 98vw;
-  height: 100vh;
+
+
   overflow: hidden;
   @media only screen and (max-width:1000px) {
         
@@ -19,6 +20,7 @@
     padding: 7.25rem 10rem;
     z-index: 10;
     display: flex;
+    justify-content: space-between;
     @media only screen and (max-width:1000px) {
         
         text-align: center;
